@@ -2,10 +2,9 @@ package com.daom.api_usuarios.controller;
 
 import com.daom.api_usuarios.dto.UserDto;
 import com.daom.api_usuarios.service.UserService;
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController

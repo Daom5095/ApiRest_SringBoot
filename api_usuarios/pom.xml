@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.2</version>
+		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.daom</groupId>
 	<artifactId>api_usuarios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api_usuarios</name>
-	<description>api de gestios de usuarios para probar conceptos de ApíRest</description>
+	<description>api de gestion de usuarios para probar conceptos de ApíRest</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -58,8 +58,22 @@
 		<dependency>
 			<groupId>jakarta.validation</groupId>
 			<artifactId>jakarta.validation-api</artifactId>
-			<version>2.0.2</version>
+			<version>3.0.2</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>8.0.1.Final</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<build>
